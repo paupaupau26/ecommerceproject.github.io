@@ -17,7 +17,7 @@ const data = {
       category: 'Phones',
       image: '/images/iphone14promax.jpg',
       price: 1190,
-      countInStock: 15,
+      countInStock: 0,
       brand: 'Apple',
       numReviews: 10,
       description: '2022 Apple Flagship',
