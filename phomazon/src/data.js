@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'Samsung S22 Ultra',
       slug: 'samsung-s22-ultra',
       category: 'Phones',
@@ -12,6 +13,7 @@ const data = {
       description: '2022 Samsung Flagship',
     },
     {
+      _id: '2',
       name: 'iPhone 14 Pro Max',
       slug: 'iphone-14-pro-max',
       category: 'Phones',
@@ -23,6 +25,7 @@ const data = {
       description: '2022 Apple Flagship',
     },
     {
+      _id: '3',
       name: 'Google Pixel 5 Pro',
       slug: 'google-pixel-5pro',
       category: 'Phones',
@@ -34,6 +37,7 @@ const data = {
       description: '2022 Google Flagship',
     },
     {
+      _id: '4',
       name: 'Motorola Razr 5G 2020',
       slug: 'motorola-razr-5g-2020',
       category: 'Phones',
