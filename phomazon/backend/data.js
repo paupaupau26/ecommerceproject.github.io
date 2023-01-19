@@ -1,7 +1,11 @@
 const data = {
   products: [
     {
+<<<<<<< HEAD
       _id: "1",
+=======
+      _id: '1',
+>>>>>>> 64ea274d283dd47403a59a562ded8202fbdc5faf
       name: 'Samsung S22 Ultra',
       slug: 'samsung-s22-ultra',
       category: 'Phones',
@@ -9,25 +13,41 @@ const data = {
       price: 990,
       countInStock: 10,
       brand: 'Samsung',
+<<<<<<< HEAD
       rating: 4,
+=======
+>>>>>>> 64ea274d283dd47403a59a562ded8202fbdc5faf
       numReviews: 10,
       description: '2022 Samsung Flagship',
     },
     {
+<<<<<<< HEAD
       _id: "2",
+=======
+      _id: '2',
+>>>>>>> 64ea274d283dd47403a59a562ded8202fbdc5faf
       name: 'iPhone 14 Pro Max',
       slug: 'iphone-14-pro-max',
       category: 'Phones',
       image: '/images/iphone14promax.jpg',
       price: 1190,
+<<<<<<< HEAD
       countInStock: 15,
       brand: 'Apple',
       rating: 5,
+=======
+      countInStock: 0,
+      brand: 'Apple',
+>>>>>>> 64ea274d283dd47403a59a562ded8202fbdc5faf
       numReviews: 10,
       description: '2022 Apple Flagship',
     },
     {
+<<<<<<< HEAD
       _id: "3",
+=======
+      _id: '3',
+>>>>>>> 64ea274d283dd47403a59a562ded8202fbdc5faf
       name: 'Google Pixel 5 Pro',
       slug: 'google-pixel-5pro',
       category: 'Phones',
@@ -35,12 +55,19 @@ const data = {
       price: 800,
       countInStock: 10,
       brand: 'Google',
+<<<<<<< HEAD
       rating: 3.5,
+=======
+>>>>>>> 64ea274d283dd47403a59a562ded8202fbdc5faf
       numReviews: 10,
       description: '2022 Google Flagship',
     },
     {
+<<<<<<< HEAD
       _id: "4",
+=======
+      _id: '4',
+>>>>>>> 64ea274d283dd47403a59a562ded8202fbdc5faf
       name: 'Motorola Razr 5G 2020',
       slug: 'motorola-razr-5g-2020',
       category: 'Phones',
@@ -48,6 +75,7 @@ const data = {
       price: 790,
       countInStock: 20,
       brand: 'Motorola',
+<<<<<<< HEAD
       rating: 2.5,
       numReviews: 30,
       description: '2020 Samsung Flagship',
@@ -155,6 +183,11 @@ const data = {
       numReviews: 30,
       description: '2022 Xiaomi Flagship',
     },
+=======
+      numReviews: 30,
+      description: '2020 Samsung Flagship',
+    },
+>>>>>>> 64ea274d283dd47403a59a562ded8202fbdc5faf
   ],
 };
 

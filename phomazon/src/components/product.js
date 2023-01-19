@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
@@ -28,6 +29,15 @@ function Product(props) {
     });
   };
 
+=======
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
+import Rating from './rating';
+
+function Product(props) {
+  const { product } = props;
+>>>>>>> 64ea274d283dd47403a59a562ded8202fbdc5faf
   return (
     <Card>
       <Link to={`/product/${product.slug}`}>
@@ -39,6 +49,7 @@ function Product(props) {
         </Link>
         <Rating rating={product.rating} numReviews={product.numReviews} />
         <Card.Text>${product.price}</Card.Text>
+<<<<<<< HEAD
         {product.countInStock === 0 ? (
           <Button variant="light" disabled>
             Out of stock
@@ -46,8 +57,16 @@ function Product(props) {
         ) : (
           <Button onClick={() => addToCartHandler(product)}>Add to cart</Button>
         )}
+=======
+        <Button>Add To Cart</Button>
+>>>>>>> 64ea274d283dd47403a59a562ded8202fbdc5faf
       </Card.Body>
     </Card>
   );
 }
+<<<<<<< HEAD
 export default Product;
+=======
+
+export default Product;
+>>>>>>> 64ea274d283dd47403a59a562ded8202fbdc5faf

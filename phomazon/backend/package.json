@@ -11,9 +11,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^6.7.2"
+=======
+    "express": "^4.18.2"
+>>>>>>> 64ea274d283dd47403a59a562ded8202fbdc5faf
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

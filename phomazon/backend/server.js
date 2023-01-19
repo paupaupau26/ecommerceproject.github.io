@@ -1,5 +1,6 @@
 import express from 'express';
 import data from './data.js';
+<<<<<<< HEAD
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 
@@ -15,6 +16,10 @@ mongoose.connect(process.env.MONGODB_URI).then(() =>{
 const app = express();
 
 
+=======
+const app = express();
+
+>>>>>>> 64ea274d283dd47403a59a562ded8202fbdc5faf
 app.get('/api/products', (req, res) => {
   res.send(data.products);
 });
@@ -40,5 +45,8 @@ app.get('/api/products/:id', (req, res) => {
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`serve at http://localhost:${port}`);
+<<<<<<< HEAD
   
+=======
+>>>>>>> 64ea274d283dd47403a59a562ded8202fbdc5faf
 });

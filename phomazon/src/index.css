@@ -39,6 +39,15 @@ main {
 .product-info {
   padding: 1rem;
   border-radius: 20px;
+<<<<<<< HEAD
+=======
+}
+.img-large {
+  max-width: 100%;
+}
+.img-thumbnail {
+  height: 80px;
+>>>>>>> 64ea274d283dd47403a59a562ded8202fbdc5faf
 }
 .img-large {
   max-width: 100%;
